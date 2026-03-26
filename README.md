@@ -1,5 +1,4 @@
 # emotion-song-analysis
-emotion song analysis based on songs from "sleep token - infinite bath"
 
 - Emotion Analysis in Song Lyrics using NLP,
 This project analyzes emotional patterns in song lyrics using a pre-trained NLP model.
