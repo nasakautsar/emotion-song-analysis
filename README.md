@@ -1,15 +1,15 @@
-**Emotion Analysis in Song Lyrics using NLP
+#Emotion Analysis in Song Lyrics using NLP
 
 This project explores how AI interprets emotions in song lyrics using a pre-trained NLP model, and compares it with human understanding.
 
 ---
 
- Objective,
+##Objective,
 To analyze emotional patterns in song lyrics and understand the gap between human interpretation and AI classification.
 
 ---
 
- Method,
+##Method,
 Model: DistilRoBERTa (HuggingFace),
 Task: Emotion Classification,
 Approach:
@@ -20,7 +20,7 @@ Quantitative scoring (frequency & average),
 
 ---
 
- Results,
+##Results,
 Emotion Distribution,
 ![Bar Chart](images/bar_chart.png)
 
@@ -29,7 +29,7 @@ Emotion Progression,
 
 ---
 
- Key Insights,
+##Key Insights,
 Fear is the most dominant emotion across the lyrics,
 Joy appears as a brief but intense emotional peak,
 Neutral states act as transitions between emotional phases,
@@ -37,14 +37,14 @@ The emotional pattern suggests a progression from anxiety to release,
 
 ---
 
- Limitations,
+##Limitations,
 AI relies on keywords and fails to capture deeper symbolic meaning,
 Emotional states are treated as discrete, not overlapping,
 Concepts like “healing” or “transformation” are not explicitly detected,
 
 ---
 
- Tools,
+##Tools,
 Python,
 HuggingFace Transformers,
 Matplotlib,
@@ -62,5 +62,5 @@ notebook/song-analysis.ipynb
 
 ---
 
- Author,
+##Author,
 nasaka
