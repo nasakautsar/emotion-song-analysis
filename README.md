@@ -1,47 +1,65 @@
-# emotion-song-analysis
+Emotion Analysis in Song Lyrics using NLP,
+This project explores how AI interprets emotions in song lyrics using a pre-trained NLP model, and compares it with human understanding.
 
-- Emotion Analysis in Song Lyrics using NLP,
-This project analyzes emotional patterns in song lyrics using a pre-trained NLP model.
+---
 
-- Objective,
-To explore how AI interprets emotions in music and compare it with human understanding.
+ Objective,
+To analyze emotional patterns in song lyrics and understand the gap between human interpretation and AI classification.
 
-- Method,
+---
+
+ Method,
 Model: DistilRoBERTa (HuggingFace),
 Task: Emotion Classification,
-Analysis:
-Per-line emotion detection,
-Emotion progression over time,
-Quantitative analysis (frequency & average score),
+Approach:
+Per-line emotion analysis,
+Emotion progression tracking,
+Quantitative scoring (frequency & average),
 ,
 
-- Results,
+---
+
+ Results,
 Emotion Distribution,
 ![Bar Chart](images/bar_chart.png)
 
 Emotion Progression,
 ![Timeline](images/timeline.png)
 
-- Key Insights,
-Fear is the dominant emotion across the lyrics,
-Joy appears as a peak moment (emotional release),
-Neutral states indicate emotional transitions,
+---
 
-- Limitations,
-AI cannot capture symbolic meaning (e.g., healing, transformation),
-Emotions are treated as discrete, not overlapping,
+ Key Insights,
+Fear is the most dominant emotion across the lyrics,
+Joy appears as a brief but intense emotional peak,
+Neutral states act as transitions between emotional phases,
+The emotional pattern suggests a progression from anxiety to release,
 
-- Future Work,
-Multi-label emotion detection,
-Fine-tuning model on music dataset,
-Expanding to multiple songs,
+---
 
-- Tools,
+ Limitations,
+AI relies on keywords and fails to capture deeper symbolic meaning,
+Emotional states are treated as discrete, not overlapping,
+Concepts like “healing” or “transformation” are not explicitly detected,
+
+---
+
+ Tools,
 Python,
-Transformers (HuggingFace),
+HuggingFace Transformers,
 Matplotlib,
 
 ---
 
-- Author,
-Nasaka
+1. How to Run
+Install dependencies:
+pip install -r requirements.txt
+
+2. Open:
+notebook/song-analysis.ipynb
+
+3. Run all cells
+
+---
+
+ Author,
+nasaka
