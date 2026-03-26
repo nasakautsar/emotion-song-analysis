@@ -1,4 +1,5 @@
-Emotion Analysis in Song Lyrics using NLP,
+**Emotion Analysis in Song Lyrics using NLP
+
 This project explores how AI interprets emotions in song lyrics using a pre-trained NLP model, and compares it with human understanding.
 
 ---
